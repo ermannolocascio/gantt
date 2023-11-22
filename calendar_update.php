@@ -1,7 +1,7 @@
 <?php
 
 /*
-This is just a part of the code. The aim of this code is to describe (also qualitatively) how the update process is achieved. 
+This is just a part of the code. The aim of this code is to describe (also qualitatively) how the updating process is achieved. 
 Author: Ermanno Lo Cascio 
 08.2023
 
