@@ -1,5 +1,3 @@
-# gantt
-
 
 # Booking Calendar
 
