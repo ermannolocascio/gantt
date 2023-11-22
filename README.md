@@ -49,5 +49,5 @@ Other validations occurs...
 ## Further notes on the code
 
 The script `calendar_update.php` contains a more detailed description explaining how the code handles the updating of the calendar.
-
+Please note that this is just a sub-part of the process that is shown just for explanation purposes.
 
