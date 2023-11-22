@@ -57,8 +57,8 @@ $sector=mysqli_real_escape_string($conn, $sector);
 $startDay=mysqli_real_escape_string($conn, $startDay);
 $endDay=mysqli_real_escape_string($conn, $endDay);
 
-
-$sql = "SELECT * FROM invetrina_bookings WHERE 
+// NB name of the table deleted by purpose 
+$sql = "SELECT * FROM XXXXX WHERE   
 bookshop_id = '$bookshopId' 
 AND vetrina_id = '$vetrina_id' 
 AND booking_start_year = '$startYear'
