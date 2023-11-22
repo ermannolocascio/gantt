@@ -22,7 +22,7 @@ a. Whatever is the range selected, the calendar owner can set the status of a sp
 
 b. The client can only send proposal and book available slots. 
 
-### Consistent users
+### Consistent recipient
 
 The proposal are sent by the client to the calendar owner. If the owner tries to send a request to him/herself the system drops an error. 
 
