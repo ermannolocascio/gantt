@@ -50,4 +50,5 @@ Other validations occurs...
 
 The script `calendar_update.php` contains a more detailed description explaining how the code handles the updating of the calendar.
 Please note that this is just a sub-part of the process that is shown just for explanation purposes.
+This function is triggered via AJAX once the client click on the button 'update the calendar'. 
 
