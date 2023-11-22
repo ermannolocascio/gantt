@@ -4,9 +4,11 @@
 **Booking Calendar**
 
 In this code I have created a CRM for booking purposes. 
+
 In a nutshell: the client can select the single timeslot (or the timerange) and send a booking proposal to the slot owner. If he/she accepts, a payment process starts and once the bank confirms the payment the calendar is reserved for the client. 
 
 **Technologies**
+
 The calendar has been created starting from a simple bootstrap 4 table. 
 The table becomes interactive (modals opening on click, cell highlighted on mouse over, rows adding etc) thanks to the JavaScript (and partly PHP).
 The table is manipulated via AJAX and all the booking information are stored into a MySQL database. 
