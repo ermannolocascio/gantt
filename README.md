@@ -12,7 +12,7 @@ In a nutshell: the client can select the single timeslot (or the timerange) and 
 The calendar has been created starting from a simple bootstrap 4 table. 
 The table becomes interactive (modals opening on click, cell highlighted on mouse over, rows adding etc) thanks to the JavaScript (and partly PHP).
 The table is manipulated via AJAX and all the booking information are stored into a MySQL database. 
-The databases involved are mainly two: one refers to the proposals, one to the bookings (a proposal is transformed in a booking once the payment has been confirmed).
+The database involves two SQL tables: one refers to the *proposals*, one to the *bookings* (a proposal is transformed in a booking once the payment has been confirmed).
 
 **Validations** and software structure. 
 
