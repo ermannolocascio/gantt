@@ -28,7 +28,7 @@ The proposal are sent by the client to the calendar owner. If the owner tries to
 
 ### Payment Process
 
-a. When the payment process starts, (i.e., the Stripe bank redirects you to complete the 3D secure payment or when you payment is processed by the bank) the spots are temporarily frozen to avoid overlaps during the payment process.
+a. When the payment process starts, (i.e., the Stripe bank redirects you to complete the 3D secure payment or simply when the payment is processed by the bank) the spots are temporarily frozen to avoid overlaps during the payment process itself. This is because in principle there might be competing bookings going on.
 
 b. Once the payment is finalized and the bank sends a positive feedback, the slot is updated and locked. If the payment is not successful, the slot is unlocked.
 
