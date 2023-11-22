@@ -18,18 +18,19 @@ I mentiond just few of them.
 
 ### Calendar Availability
 
-a. The calendar owner can set the status of a spot as 'not available' only if no bookings are set for the selected period.  
+a. Whatever is the range selected, the calendar owner can set the status of a spot as 'not available' only if no bookings are set for the selected period. Same for the 'available' case. 
 
-b. The calendar owner can set the stu
+b. The client can only send proposal and book available slots. 
 
 ### Consistent users
 
 The proposal are sent by the client to the calendar owner. If the owner tries to send a request to him/herself the system drops an error. 
 
-
 ### Payment Process
 
-If at least one day within the selected time-range is occupied, the booking cannot be finalized. The same applies if the spot is set as 'not available'. When the payment process starts, the spots are temporarily frozen to avoid overlaps during the payment process. Once the payment is finalized and the bank sends a positive feedback, the slot is updated and locked. If the payment is not successful, the slot is unlocked.
+a. When the payment process starts, (i.e., the Stripe bank redirects you to complete the 3D secure payment or when you payment is processed by the bank) the spots are temporarily frozen to avoid overlaps during the payment process.
+
+b. Once the payment is finalized and the bank sends a positive feedback, the slot is updated and locked. If the payment is not successful, the slot is unlocked.
 
 
 
