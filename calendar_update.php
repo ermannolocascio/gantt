@@ -101,7 +101,7 @@ if ($result->num_rows > 0) {
 3. If all slots are empty and the update is possible then we generate a new associative array containing the updates requested for the period requested.  
 .
 .
-4. The rows in the SQL table containing the booking information for the selected period are deleted.
+4. The initial rows in the SQL table containing the booking information for the selected period are deleted.
 .
 .
 5. A new row is added into the MySQL table. 
