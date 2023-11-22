@@ -105,10 +105,10 @@ if ($result->num_rows > 0) {
 .
 .
 5. A new row is added into the MySQL table. 
-5bis. In case the request forsees setting a slot as 'available' while the previous and the next slot are 'not available' (split case) then multiple rows are inserted into the MySQL table. 
+5bis. In case the request forsees setting a slot as 'available' while the previous and the next slots are 'not available' (split case) then multiple rows are inserted into the MySQL table. 
 .
 .
-6. The feedback ofthe AJAX call is sent back to the main page and, if it was a successful update, the page is refreshed via JavaScript to update the table.
+6. The output of the AJAX call is sent back to the main page and, if it was a successful update, the page is refreshed via JavaScript to update the table.
 */ 
 
 
