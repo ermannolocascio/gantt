@@ -98,7 +98,7 @@ if ($result->num_rows > 0) {
 2. based on the selected case we loop though the array in order to check what is contained into each slot of the selected period. If there is at least 1 booking, the code will drop an error. 
 .
 .
-3. If everything is empty and the update is possible then we generate a new associative array containing the updates requested for the period requested.  
+3. If all slots are empty and the update is possible then we generate a new associative array containing the updates requested for the period requested.  
 .
 .
 4. The rows in the SQL table containing the booking information for the selected period are deleted.
