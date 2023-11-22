@@ -47,3 +47,9 @@ b. Payments must be finalized the day before within midnight max, otherwise the 
 c. If the client clicks again on the payment link received and try to pay the slot again the system drops an error and terminates the payment.
 
 Other validations occurs...
+
+## Further notes on the code
+
+The script `calendar_update.php` contains a more detailed description explaining how the code handles the updating of the calendar.
+
+
