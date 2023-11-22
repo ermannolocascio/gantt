@@ -13,13 +13,15 @@ The calendar has been created starting from a simple Bootstrap 4 table. The tabl
 
 ## Validations and Software Structure
 
+There are several validation steps to ensure consistent booking and avoid overlaps.
+
 ### Calendar Availability
 
-The calendar owner can set the status of a spot as 'not available' only if no bookings are set for the selected period. To achieve this, I have used a simple Bootstrap table enhanced through JavaScript and PHP. The bookings are stored in a MySQL database and modified through AJAX calls.
+The calendar owner can set the status of a spot as 'not available' only if no bookings are set for the selected period. 
 
 ### Payment Process
 
-There are several validation steps to ensure consistent booking and avoid overlaps, e.g., if at least one day within the selected time-range is occupied, the booking cannot be finalized. The same applies if the spot is set as 'not available'. When the payment process starts, the spots are temporarily frozen to avoid overlaps during the payment process. Once the payment is finalized and the bank sends a positive feedback, the slot is updated and locked. If the payment is not successful, the slot is unlocked.
+If at least one day within the selected time-range is occupied, the booking cannot be finalized. The same applies if the spot is set as 'not available'. When the payment process starts, the spots are temporarily frozen to avoid overlaps during the payment process. Once the payment is finalized and the bank sends a positive feedback, the slot is updated and locked. If the payment is not successful, the slot is unlocked.
 
 
 
