@@ -42,6 +42,8 @@ b. Once the payment is finalized and the bank sends a positive feedback, the slo
 
 a. The proposal cannot be sent if the forms are not filled-in properly (client side, accomplished via JavaScript);
 
-b. Payments must be finalized the day before within midnight max, otherwise the proposal expires. 
+b. Payments must be finalized the day before within midnight max, otherwise the proposal expires;  
 
+c. If the client clicks again on the payment link received and try to pay the slot again the system drops an error and terminates the payment.
 
+Other validations occurs...
