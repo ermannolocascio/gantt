@@ -8,6 +8,9 @@ In this code, I have created a CRM for booking purposes.
 In a nutshell, the client can select a single timeslot or timerange and send a booking proposal to the slot owner. If accepted, a payment process starts, and once the bank confirms the payment, the calendar is reserved for the client.
 A series of emails and notifications are sent to the calendar owner and the client to handle the process. Email are sent via *phpmailer*. 
 
+<img src="assets/calendar.PNG" width="528"/>
+
+
 ## Technologies
 
 The calendar has been created starting from a simple Bootstrap 4 table. The table becomes interactive (modals open on click, cells highlighted on mouseover, rows added, etc.) thanks to JavaScript (and partly PHP). The table is manipulated via AJAX, and all booking information is stored in a MySQL database. The database involves two SQL tables: one for *proposals* and one for *bookings* (a proposal is transformed into a booking once the payment is confirmed).
