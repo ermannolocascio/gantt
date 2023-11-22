@@ -1,5 +1,5 @@
 # gantt
-** WORK IN PROGRESS... **
+
 
 # Booking Calendar
 
