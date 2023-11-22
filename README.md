@@ -6,6 +6,7 @@
 In this code, I have created a CRM for booking purposes.
 
 In a nutshell, the client can select a single timeslot or timerange and send a booking proposal to the slot owner. If accepted, a payment process starts, and once the bank confirms the payment, the calendar is reserved for the client.
+A series of emails and notifications are sent to the calendar owner and the client to handle the process. Email are sent via *phpmailer*. 
 
 ## Technologies
 
@@ -30,7 +31,9 @@ The proposal are sent by the client to the calendar owner. If the owner tries to
 
 a. When the payment process starts, (i.e., the Stripe bank redirects you to complete the 3D secure payment or simply when the payment is processed by the bank) the spots are temporarily frozen to avoid overlaps during the payment process itself. This is because in principle there might be competing bookings going on.
 
-b. Once the payment is finalized and the bank sends a positive feedback, the slot is updated and locked. If the payment is not successful, the slot is unlocked.
+b. Once the payment is finalized and the bank sends a positive feedback, the slot is updated and locked (reserved). If the payment is not successful, the slot is unlocked.
+
+
 
 
 
