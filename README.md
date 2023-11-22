@@ -38,7 +38,10 @@ a. When the payment process starts, (i.e., the Stripe bank redirects you to comp
 
 b. Once the payment is finalized and the bank sends a positive feedback, the slot is updated and locked (reserved). If the payment is not successful, the slot is unlocked.
 
+### Further validations
 
+a. The proposal cannot be sent if the forms are not filled-in properly (client side, accomplished via JavaScript);
 
+b. Payments must be finalized the day before within midnight max, otherwise the proposal expires. 
 
 
