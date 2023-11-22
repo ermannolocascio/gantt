@@ -14,10 +14,18 @@ The calendar has been created starting from a simple Bootstrap 4 table. The tabl
 ## Validations and Software Structure
 
 There are several validation steps to ensure consistent booking and avoid overlaps.
+I mentiond just few of them.
 
 ### Calendar Availability
 
-The calendar owner can set the status of a spot as 'not available' only if no bookings are set for the selected period. 
+a. The calendar owner can set the status of a spot as 'not available' only if no bookings are set for the selected period.  
+
+b. The calendar owner can set the stu
+
+### Consistent users
+
+The proposal are sent by the client to the calendar owner. If the owner tries to send a request to him/herself the system drops an error. 
+
 
 ### Payment Process
 
