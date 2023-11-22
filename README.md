@@ -3,7 +3,7 @@
 
 # Booking Calendar
 
-In this code, I have created a CRM for booking purposes.
+In this code, I have created a CRM for booking purposes. It consists of an interactive, public calendar reporting the *sectors* available for booking and the *days numbers* of the current month. 
 
 In a nutshell, the client can select a single timeslot or timerange and send a booking proposal to the slot owner. If accepted, a payment process starts, and once the bank confirms the payment, the calendar is reserved for the client.
 A series of emails and notifications are sent to the calendar owner and the client to handle the process. 
